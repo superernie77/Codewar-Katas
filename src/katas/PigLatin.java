@@ -4,7 +4,6 @@ public class PigLatin {
 	
 	 public static String pigIt(String str) {
 	        String[] words = str.split(" ");
-	        
 	        String result = "";
 	        for (String s : words ) {
 	        	if (s.matches(".*\\p{Punct}")) {
@@ -18,7 +17,6 @@ public class PigLatin {
 	    }
 	 
 	 public static void main(String[] args) {
-		
 		System.out.println( pigIt("Pig latin is ! cool"));
 	}
 
