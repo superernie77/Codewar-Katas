@@ -9,5 +9,4 @@ public class StringRepeat {
 	        IntStream.range(0, repeat).forEach( i -> builder.append(string) );
 	        return builder.toString();
 	 }
-
 }
