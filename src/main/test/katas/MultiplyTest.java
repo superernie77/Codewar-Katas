@@ -1,3 +1,4 @@
+package katas;
 import org.junit.jupiter.api.Test;
 import katas.Multiply;
 import static org.junit.jupiter.api.Assertions.assertEquals;
