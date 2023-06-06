@@ -1,8 +1,11 @@
 package main.test.katas;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import main.java.katas.AlternatingStrings;
+
+import java.util.Arrays;
 
 public class AlternatingStringsTest {
     
@@ -25,6 +28,6 @@ public class AlternatingStringsTest {
     
     private void assertEquals(String[] expected, int n, String firstValue, String secondValue) {
       String[] actual = AlternatingStrings.alternate(n, firstValue, secondValue);
-      assertArrayEquals(expected, actual, String.format("For input (%d, \"%s\", \"%s\")%nExpected: %s%nActual: %s%n", n, firstValue, secondValue, Arrays.toString(expected), Arrays.toString(actual)));
+      Assertions.assertArrayEquals(expected, actual, String.format("For input (%d, \"%s\", \"%s\")%nExpected: %s%nActual: %s%n", n, firstValue, secondValue, Arrays.toString(expected), Arrays.toString(actual)));
     }
 }
