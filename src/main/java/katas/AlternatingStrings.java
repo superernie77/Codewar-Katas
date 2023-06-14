@@ -1,4 +1,4 @@
-package main.java.katas;
+package katas;
 
 public class AlternatingStrings {
     

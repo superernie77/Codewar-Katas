@@ -1,11 +1,10 @@
-package main.test.katas;
+package katas;
 
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import org.junit.jupiter.api.Test;
 
-import main.java.katas.HelloLanguages;
 
 public class HelloLanguagesTest {
 

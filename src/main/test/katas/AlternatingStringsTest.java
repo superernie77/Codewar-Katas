@@ -1,9 +1,7 @@
-package main.test.katas;
+package katas;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-
-import main.java.katas.AlternatingStrings;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package main.java.katas;
+package katas;
 
 import java.util.List;
 

@@ -1,6 +1,5 @@
-package main.test.katas;
+package katas;
 
-import main.java.katas.CatJump;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
